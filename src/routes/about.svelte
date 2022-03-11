@@ -28,7 +28,7 @@
 			> Coding Bootcamp. This was their first time working as a group.
 		</p>
 		<p>Development took place over a couple of weeks in February-March 2022.</p>You can find out more in the project's <a
-		href="https://github.com/Dance1211/climate-app"
+		href="https://github.com/benwestondigital/climate-app"
 		target="_blank">GitHub repo</a>.
 		<p></p>
 
