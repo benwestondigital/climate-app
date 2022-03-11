@@ -53,7 +53,7 @@ Follow these steps to run a local version of the project. Please be aware that t
 
 - First, download the project into a local folder. In your terminal, run:
 
-  `git clone https://github.com/Dance1211/climate-app.git`
+  `git clone https://github.com/benwestondigital/climate-app.git`
 
 - Then navigate into the new folder, and install dependencies:
 
