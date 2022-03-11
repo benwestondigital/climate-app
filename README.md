@@ -38,7 +38,7 @@ For this project we decided to use several pieces of tech that were new to the t
 - Back End: [SvelteKit framework](https://kit.svelte.dev/)
 - Database: [MongoDB](https://www.mongodb.com/)
 - APIs: [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview), [OpenWeatherMap API](https://openweathermap.org/api), [Okiolab Weather Data API](https://oikolab.com/api-details#api=weather&operation=weather-data)
-- Languages: Svelte, TypeScript,JavaScript, CSS, HTML
+- Languages: TypeScript, JavaScript, CSS, HTML
 
 ## Run the App Locally
 
@@ -46,8 +46,8 @@ Follow these steps to run a local version of the project. Please be aware that t
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/en/) v. 17.0.0 or higher (JavaScript runtime environment)
-- [npm](https://www.npmjs.com/package/npm) (JavaScript package manager)
+- [Node.js](https://nodejs.org/en/) v. 17.0.0 or higher
+- [npm](https://www.npmjs.com/package/npm)
 
 ### Clone & Install Dependencies
 
@@ -65,7 +65,7 @@ Follow these steps to run a local version of the project. Please be aware that t
 
 You will need an external database and a number of third-party API keys to run the project as intended. Each of these web services requires an active user account, so you may need to sign up. The app only uses features in the 'free tier' of each service.
 
-1. Create a [MongoDB Atlas database](https://www.mongodb.com/atlas/database) project by following parts 1-4 of [these instructions](https://docs.atlas.mongodb.com/getting-started/). This will store data about climate zones, places, and coordinates. 
+1. Create a [MongoDB Atlas database](https://www.mongodb.com/atlas/database) project by following parts 1-4 of [these instructions](https://docs.atlas.mongodb.com/getting-started/). This will store data about climate zones, places, and coordinates.
 
 2. Retrieve your MongoDB URI:
     - Go to your Atlas database using the MongoDB website. Press `Connect -> Connect your application` (using Node.js driver).
@@ -100,16 +100,18 @@ VITE_OIKO_WEATHER_KEY=YOUR_OIKOLAB_API_KEY
 
 VITE_WEATHER_API_KEY=YOUR_OPENWEATHER_API_KEY 
 ```
-### Seed the Database
-Finally, navigate to [http://localhost:3000/seed](http://localhost:3000/seed) and press the `Seed the Database Now` button. This should load the project data in to your MongoDB database. 
 
-It may take a while to load this page - and then to populate your database. You can see the progress in your node console. 
+### Seed the Database
+
+Finally, navigate to [http://localhost:3000/seed](http://localhost:3000/seed) and press the `Seed the Database Now` button. This should load the project data in to your MongoDB database.
+
+It may take a while to load this page - and then to populate your database. You can see the progress in your node console.
 
 ### Running the App
 
 Once the above steps are complete, the app can by run locally and viewed in your web browser with:
 
-`npm run dev -- --open`
+`npm run dev`
 
 ## Functionality
 
