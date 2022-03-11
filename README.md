@@ -73,7 +73,7 @@ You will need an external database and a number of third-party API keys to run t
     - Edit the URI so that `<password>` is replaced by your real MongoDB password
     - Edit the URI so that `myFirstDatabase` is replaced by `locations`
 
-3. Register for a [Google Maps API Key](https://mapsplatform.google.com/maps-products/), to get photos of our different destinations.
+3. Register for a [Google Maps API Key](https://mapsplatform.google.com/maps-products/).
     These APIs need to be enabled in your settings:
     - Geocoding API
     - Places API
