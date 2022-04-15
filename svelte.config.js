@@ -21,6 +21,9 @@ const config = {
 				noExternal: ['chart.js']
 			}
 		}
+	},
+	experimental: {
+		useVitePreprocess: true
 	}
 };
 
