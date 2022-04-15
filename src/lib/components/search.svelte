@@ -35,8 +35,9 @@
 		}
 	};
 
+	// Disabled for now - need to create reverse geocoding func
 	// When the page loads, get the user position
-	onMount(async () => {
+/* 	onMount(async () => {
 		if (navigator.geolocation) {
 			navigator.geolocation.getCurrentPosition(displayLocationInfo, showError);
 		}
@@ -61,7 +62,7 @@
 					break;
 			}
 		}
-	});
+	}); */
 </script>
 
 <svelte:head>
