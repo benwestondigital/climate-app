@@ -42,7 +42,7 @@ For this project we decided to use several pieces of tech that were new to the t
 
 ## Run the App Locally
 
-Follow these steps to run a local version of the project. Please be aware that there is quite a bit of initial set up involved.
+Follow these steps to run a local version of the project
 
 ### Requirements
 
@@ -60,6 +60,10 @@ Follow these steps to run a local version of the project. Please be aware that t
   `cd climate-app`
   
   `npm install`
+  
+  - Checkout the seed branch (main branch is used for hosting so does not have the seeding function included)
+
+  `git checkout seed`
 
 ### Set up the Database & API Keys
 
@@ -71,7 +75,7 @@ You will need an external database and a number of third-party API keys to run t
     - Go to your Atlas database using the MongoDB website. Press `Connect -> Connect your application` (using Node.js driver).
     - Copy the URI (connection string)
     - Edit the URI so that `<password>` is replaced by your real MongoDB password
-    - Edit the URI so that `myFirstDatabase` is replaced by `locations`
+    - Edit the URI so that `myFirstDatabase` is replaced by the name of your database
 
 3. Register for a [Google Maps API Key](https://mapsplatform.google.com/maps-products/).
     These APIs need to be enabled in your settings:
