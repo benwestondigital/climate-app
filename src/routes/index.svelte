@@ -1,10 +1,11 @@
 <script lang="ts">
 	import Search from '$lib/components/search.svelte';
 	export let bgImage;
+	const bgImageTest = bgImage.slice(1);
 </script>
 
 <main>
-	<div class="background-image" style="background-image: url('{bgImage}')" />
+	<div class="background-image" style="background-image: url('{bgImageTest}')" />
 	<Search />
 </main>
 
