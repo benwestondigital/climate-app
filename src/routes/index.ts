@@ -1,4 +1,4 @@
-import { bgImages } from '../../static/images/backgrounds-compressed';
+import { bgImages } from '/static/images/backgrounds-compressed';
 
 export function get() {
   const randomImageIndex = Math.floor(bgImages.length * Math.random())
