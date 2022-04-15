@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-import path from 'path'
+import path from 'path';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,6 +16,9 @@ const config = {
 					// Place future aliases here. They need to be mirrored in tsconfig.json
 					$components: path.resolve('./src/lib/components')
 				}
+			},
+			ssr: {
+				noExternal: ['chart.js']
 			}
 		}
 	}
