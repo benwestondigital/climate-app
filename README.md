@@ -61,7 +61,7 @@ Follow these steps to run a local version of the project
   
   `npm install`
   
-  - Checkout the seed branch (main branch is used for hosting so does not have the seeding function included)
+  - Checkout the seed branch (main branch is used for hosting so does not have the functionality to seed your own database included)
 
   `git checkout seed`
 
