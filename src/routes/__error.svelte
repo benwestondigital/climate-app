@@ -7,11 +7,6 @@
 	}
 </script>
 
-<script>
-	/** @type {Error & {frame?: string} & {loc?: object}} */
-	export let error;
-</script>
-
 <svelte:head>
 	<title>Error | WhereTo.</title>
 </svelte:head>

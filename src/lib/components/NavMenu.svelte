@@ -130,9 +130,6 @@
 			font-size: 0.75rem; /* 12px default*/
 			padding-left: 0.5rem;
 		}
-		ul.nav-links-secondary li.account {
-			padding-right: 0;
-		}
 		ul.nav-links-secondary li.search a:hover {
 			text-decoration: none;
 		}
