@@ -4,7 +4,7 @@
 </script>
 
 <main>
-	<div class="background-image" style="background-image: url({bgImage});" />
+	<div class="background-image" style="background-image: url('{bgImage}')" />
 	<Search />
 </main>
 
