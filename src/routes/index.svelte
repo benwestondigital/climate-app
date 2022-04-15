@@ -1,11 +1,10 @@
 <script lang="ts">
 	import Search from '$lib/components/search.svelte';
 	export let bgImage;
-	const bgImageSet = `background-image: url("${bgImage}");`;
 </script>
 
 <main>
-	<div class="background-image" style="{bgImageSet}" />
+	<div class="background-image" style="background-image: url({bgImage})" />
 	<Search />
 </main>
 
@@ -29,7 +28,6 @@
 		background-position: top center;
 		background-attachment: fixed;
 		animation: fadebackground 1.5s 1;
-		background-image: var(--background-image)
 	}
 
 	@keyframes fadebackground {
