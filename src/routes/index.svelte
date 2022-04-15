@@ -4,7 +4,7 @@
 </script>
 
 <main>
-	<div class="background-image" style="background-image: url('../../static/images/backgrounds-compressed/bg1.jpg')" />
+	<div class="background-image" style="background-image: url('/images/backgrounds-compressed/bg1.jpg')" />
 	<Search />
 </main>
 
