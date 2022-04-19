@@ -28,6 +28,7 @@
 	.map {
 		position: relative;
 		width: 100%;
+		margin: 0 auto;
 		max-width: 100vw;
 		max-height: 100vh;
 		background-image: url('/images/mapBackground.png');
